@@ -1,0 +1,51 @@
+<%@ page pageEncoding="UTF-8" %>
+    <nav>
+    	<div class="container">
+    	<ul>
+			<li>
+				<a href="#">ГРОМАДІ</a>
+				<ul>
+					<li><a href="#">Зразки документів</a></li>
+					<li><a href="#">Питання, які найчастіше надходять</a></li>
+					<li><a href="#">Корисні посилання</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">НОРМАТИВНІ АКТИ</a>
+				<ul>
+					<li><a href="#">Закони</a></li>
+					<li><a href="#">Постанови КМУ</a></li>
+					<li><a href="#">Рішення Київської міської ради</a></li>
+					<li><a href="#">Розпорядження КМДА</a></li>
+					<li><a href="#">Накази ДМА</a></li>
+					<li><a href="#">Проекти</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">ДІЯЛЬНІСТЬ</a>
+				<ul>
+					<li><a href="#">Обстеження</a></li>
+					<li><a href="#">Фахівці з обстеження</a></li>
+					<li><a href="#">Демонтаж</a></li>
+					<li><a href="#">Договори</a></li>
+					<li><a href="#">Звернення громадян</a></li>
+					<li><a href="#">Фінансова звітність</a></li>
+					<li><a href="#">Соціальна реклама</a></li>
+					<li><a href="#">Закупівлі</a></li>
+				</ul>
+			</li>
+			<li>
+				<%@include file="../jspf/menu-aboutus.jspf" %>
+			<!-- 
+				<a href="/site/aboutus/">ПРО НАС</a>
+				<ul>
+					<li><a href="#">Адміністрація</a></li>
+					<li><a href="/site/aboutus/function/">Функції</a></li>
+					<li><a href="#">Графік прийому громадян</a></li>
+					<li><a href="#">Контакти</a></li>
+				</ul>
+			-->
+			</li>
+		</ul>
+    	</div>
+	</nav>
