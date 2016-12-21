@@ -21,15 +21,17 @@ nav ul{
 nav li {
 	/* padding: 12px; */
 	padding-left:0;
-	border-left: 1px solid #666666;
-	border-right: 1px solid #666666;
+	/* border-left: 1px solid #f9f9f9; */
+	border-right: 1px solid #f9f9f9;
 	color: white;
 	flex-grow: 1;
 	flex-flow:column wrap;
 	list-style-type: none;
 	position: relative;
 }
-
+nav li:FIRST-CHILD{
+	border-left: 1px solid #f9f9f9;
+}
 nav li > ul{
 	padding: 0;
 	padding-top: 12px;
@@ -41,6 +43,13 @@ nav li > ul{
 	align-items: stretch;
 	position: absolute;
 	top: 100%;	
+}
+nav ul > li > ul > li{
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+nav ul > li > ul > li:FIRST-CHILD{
+	border-left: 1px solid #666666;
 }
 nav li > a{
 	display: block;
