@@ -8,11 +8,6 @@
 	<body>
 		<%@include file="../jspf/header-main.jspf" %>
 		<%@include file="../jspf/main-menu.jspf" %>	
-		<ul class="menu">
-			<li>Громаді > </li>
-			<li class="select">Зразки документів</li>
-			<li>Питання, які найчастіше надходять</li>
-			<li>Корисні посилання</li>
-		</ul>	
+		<div id="menu"><%@include file="../jspf/menu-home.jspf" %></div>	
 	</body>
 </html>

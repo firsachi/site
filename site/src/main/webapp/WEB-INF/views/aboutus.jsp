@@ -11,6 +11,6 @@
 	<body>
 		<%@include file="../jspf/header-main.jspf" %>
 		<%@include file="../jspf/main-menu.jspf" %>	
-		<%@include file="../jspf/menu-aboutus.jspf" %>
+		<div id="menu"><%@include file="../jspf/menu-aboutus.jspf" %></div>
 	</body>
 </html>
