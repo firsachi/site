@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-
+<%@ page pageEncoding="UTF-8" %>
 <a href="/site/aboutus/">Про нас</a>
 <a href="/site/aboutus/function/">Функції</a>
 <a href="#">Графік прийому громадян</a>
