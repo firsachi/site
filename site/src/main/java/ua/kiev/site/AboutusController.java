@@ -24,4 +24,14 @@ public class AboutusController {
 		model.addAttribute("namePage", namePage);
 		return "function";
 	}
+	
+	@RequestMapping(value = "schedule/")
+	public String schedule(){
+		return "schedule";
+	}
+	
+	@RequestMapping(value = "contacts/")
+	public String contacts(){
+		return "contacts";
+	}
 }

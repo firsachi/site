@@ -36,4 +36,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "samples-documents")
+	public String samplesDocuments(){
+		return "samples-documents";
+	}
+	
 }
