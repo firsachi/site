@@ -3,12 +3,7 @@
     	<div class="container">
     	<ul>
 			<li>
-				<a href="#">ГРОМАДІ</a>
-				<ul>
-					<li><a href="#">Зразки документів</a></li>
-					<li><a href="#">Питання, які найчастіше надходять</a></li>
-					<li><a href="#">Корисні посилання</a></li>
-				</ul>
+				<%@include file="../jspf/menu-home.jspf" %>
 			</li>
 			<li>
 				<a href="#">НОРМАТИВНІ АКТИ</a>
@@ -36,15 +31,6 @@
 			</li>
 			<li>
 				<%@include file="../jspf/menu-aboutus.jspf" %>
-			<!-- 
-				<a href="/site/aboutus/">ПРО НАС</a>
-				<ul>
-					<li><a href="#">Адміністрація</a></li>
-					<li><a href="/site/aboutus/function/">Функції</a></li>
-					<li><a href="#">Графік прийому громадян</a></li>
-					<li><a href="#">Контакти</a></li>
-				</ul>
-			-->
 			</li>
 		</ul>
     	</div>
