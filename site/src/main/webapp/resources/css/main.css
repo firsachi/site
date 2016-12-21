@@ -5,14 +5,16 @@ html, body {
 	color: #666666;
 	font-family: Sans, Arial;
 }
-nav {
-	margin-top:12px;
-	background: #666666;
-}
+header{padding-top: 12px;}
 .container, #menu{
 	padding-left: 50px;
 	padding-right: 50px;
 }
+nav {
+	margin-top:12px;
+	background: #666666;
+}
+
 nav ul{
 	display: flex;
 	margin: 0;
