@@ -1,5 +1,5 @@
 <%@ page pageEncoding="UTF-8" %>
-<a href="/site/aboutus/">Про нас</a>
+<a href="/site/aboutus/function/">ПРО НАС</a>
 <ul>
 	<li><a href="/site/aboutus/function/">Функції</a></li>
 	<li><a href="/site/aboutus/schedule/">Графік прийому громадян</a></li>
