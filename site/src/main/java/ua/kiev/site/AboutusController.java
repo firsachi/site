@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping(value = "aboutus/")
+@RequestMapping(value = "aboutus")
 public class AboutusController {
 	
 	private String  namePage[] = {"Про нас", "Функції", "Графік прийому громадян", "Контакти"};
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET)
 	public String aboutus(Locale locale, Model model){
 		model.addAttribute("namePage", namePage);
 		return "aboutus";

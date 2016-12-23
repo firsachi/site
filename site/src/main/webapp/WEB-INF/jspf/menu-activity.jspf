@@ -1,0 +1,12 @@
+<%@ page pageEncoding="UTF-8" %>
+<a href="/site/activity/">ДІЯЛЬНІСТЬ</a>
+<ul>
+	<li><a href="/site/activity/">Обстеження</a></li>
+	<li><a href="#">Фахівці з обстеження</a></li>
+	<li><a href="#">Демонтаж</a></li>
+	<li><a href="#">Договори</a></li>
+	<li><a href="#">Звернення громадян</a></li>
+	<li><a href="#">Фінансова звітність</a></li>
+	<li><a href="#">Соціальна реклама</a></li>
+	<li><a href="#">Закупівлі</a></li>
+</ul>

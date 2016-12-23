@@ -17,17 +17,7 @@
 				</ul>
 			</li>
 			<li>
-				<a href="#">ДІЯЛЬНІСТЬ</a>
-				<ul>
-					<li><a href="#">Обстеження</a></li>
-					<li><a href="#">Фахівці з обстеження</a></li>
-					<li><a href="#">Демонтаж</a></li>
-					<li><a href="#">Договори</a></li>
-					<li><a href="#">Звернення громадян</a></li>
-					<li><a href="#">Фінансова звітність</a></li>
-					<li><a href="#">Соціальна реклама</a></li>
-					<li><a href="#">Закупівлі</a></li>
-				</ul>
+				<%@include file="../jspf/menu-activity.jspf" %>
 			</li>
 			<li>
 				<%@include file="../jspf/menu-aboutus.jspf" %>
